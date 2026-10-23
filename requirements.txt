@@ -1,0 +1,9 @@
+pyttsx3
+SpeechRecognition[audio]
+requests
+beautifulsoup4
+PyAutoGUI
+pywhatkit
+wikipedia
+wolframalpha
+python-dotenv
