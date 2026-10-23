@@ -1,14 +1,17 @@
-# Secrets and local environment
+# Private API keys
 .env
+.env.*
+!.env.example
+
+# Python virtual environments
 .venv/
+.venv*/
 venv/
 
-# Python artifacts
+# Python cache files
 __pycache__/
 *.py[cod]
 
-# IDE / OS files
+# Editor settings and logs
 .vscode/
-.idea/
-.DS_Store
-Thumbs.db
+*.log
